@@ -41,6 +41,11 @@ public class Empleado {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+	public void devuelveProximoId() {
+		int aux;
+		aux = (getId()+1);
+		System.out.println("Este es el proximo ID: " + aux);
+	}
 	
 	
 }
