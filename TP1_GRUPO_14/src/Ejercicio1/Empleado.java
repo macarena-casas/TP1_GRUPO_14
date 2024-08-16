@@ -41,6 +41,13 @@ public class Empleado {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+	
+	
+	@Override
+	public String toString() {
+		return "Empleado [ID=" + id + ", Nombre=" + nombre + ", Edad=" + edad + "]";
+	}
+
 	public void devuelveProximoId() {
 		int aux;
 		aux = (getId()+1);

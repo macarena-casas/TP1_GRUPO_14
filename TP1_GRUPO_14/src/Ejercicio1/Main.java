@@ -13,5 +13,7 @@ public class Main {
         
         emp1.devuelveProximoId();
         emp2.devuelveProximoId();
+        
+        System.out.println(emp2.toString());
     }
 }
