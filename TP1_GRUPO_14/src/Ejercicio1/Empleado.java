@@ -7,22 +7,9 @@ public class Empleado {
 	private int edad;
 	private static int cont=999;
 
-	//Constructores
-	
 	public Empleado() {
 		cont++;
 		this.id= cont;
-		this.nombre="sin nombre";
-		this.edad= 99;
-	}
-	
-	public Empleado(String nombre, int edad)
-	{
-		cont++;
-		this.id= cont;
-		this.nombre = nombre;
-		this.edad = edad;
-		
 	}
 	
 	public int getId() {
