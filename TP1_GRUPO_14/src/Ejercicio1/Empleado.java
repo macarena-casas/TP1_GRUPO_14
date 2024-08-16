@@ -45,13 +45,13 @@ public class Empleado {
 	
 	@Override
 	public String toString() {
-		return "Empleado [ID=" + id + ", Nombre=" + nombre + ", Edad=" + edad + "]";
+		return "Emplead@: " + nombre + ", edad: " + edad +", legajo: " + id ;
 	}
 
-	public void devuelveProximoId() {
+	public static void devuelveProximoId() {
 		int aux;
-		aux = (getId()+1);
-		System.out.println("Este es el proximo ID: " + aux);
+		aux = (cont+1);
+		System.out.println("Este es el proximo ID: " + aux );
 	}
 	
 	
