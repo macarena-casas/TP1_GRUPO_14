@@ -1,6 +1,6 @@
 package Ejercicio1;
 
-public class Main {
+public class Principal {
 	public static void main(String[] args) {
         //ACA PRUEBEN TODO
         Empleado emp1 = new Empleado(); //Prueba constructor solo
