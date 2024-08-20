@@ -2,7 +2,7 @@
 package Ejercicio1;
 
 public class Empleado {
-	private int id;
+	private final int id;
 	private String nombre;
 	private int edad;
 	private static int cont=999;
@@ -26,9 +26,7 @@ public class Empleado {
 	public int getId() {
 		return id;
 	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public String getNombre() {
 		return nombre;
 	}
